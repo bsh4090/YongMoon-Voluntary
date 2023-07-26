@@ -83,11 +83,15 @@
       let index = -1;
 
       // 함수를 구현해주세요!
-   
+   for(let i=0;i<arr.length;i++){
+    if(arr[i]===n){
+    index=i;
+    break;}
+   }
 
       return index;
     }
-
+  
     // submit 버튼을 누르면 실행될 함수에요.
     function submit() {
       // 입력창에 있는 값을 n에 저장해요.
